@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(OOPS)
+importFrom(Rcpp, evalCpp)
+importFrom("graphics", "legend", "par", "points")
+importFrom("methods", "show")
+import(RcppArmadillo)
+import(universalmotif)
+import(UTILS)
